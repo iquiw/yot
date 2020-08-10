@@ -15,7 +15,7 @@ module.exports = {
         db: 0,
       },
       mongo: {
-        url: 'mongodb://localhost:27017',
+        url: process.env.MONGO_URL,
         collectionName: 'sessions',
       },
     },
